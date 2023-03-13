@@ -1,7 +1,12 @@
 body{
-    background-color: green;
+    background-color: rgb(199, 130, 231);
 }
 tr:hover{
     background-color: aqua;
 }
-
+/* estilo de id */
+#nombre{
+    border: 1px solid red;
+    border-radius: 3px;
+    background-color: rgb(152, 230, 230) ;
+}
