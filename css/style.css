@@ -10,3 +10,7 @@ tr:hover{
     border-radius: 3px;
     background-color: rgb(152, 230, 230) ;
 }
+tr:hover{
+    background-color: rgb(60, 224, 224);
+    border-radius: 3px;
+}
