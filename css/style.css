@@ -131,29 +131,34 @@ nav {
 }
 /* ################################# EDUCACION ############################  */
 .section-education{
-    background-color: gainsboro;
+    background-color: #dbdbdb;
 }
-.section-education .title{
+
+.section-education .title {
     display: block;
     margin: 15px 0;
     text-align: center;
     text-transform: uppercase;
 }
+
 .content-education{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: auto;
+    margin-bottom: 25px;
 }
+
 .education{
     width: 45%;
     background-color: #fff;
     border-radius: 10px;
+    padding: 30px;
 }
+
 .education i {
-    border: 2px solid burlywood;
+    border: 2px solid #d03d3d;
     border-radius: 50%;
-    background-color: #5d6678;
+    background-color: #d03d3d;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -161,21 +166,24 @@ nav {
     text-align: center;
     line-height: 36px;
 }
-.education a {
-    color: #d03d3d;
+
+.education a{
+    color: gray;
     font-size: 12px;
     text-decoration: none;
 }
-.education:hover {
-    background-color: red;
+
+.education:hover{
+    background-color: #d03d3d;
     box-shadow: 0 0 8px gray;
     transition: all ease-in-out .4s;
     color: #fff;
-
 }
-.education a:hover {
+
+.education a:hover{
     color: #fff;
 }
+
 /* ################################# FOOTER ############################  */
 footer{
     background: rgb(70,70,70);
@@ -192,7 +200,7 @@ footer{
     text-align: center;
 }
 .partfooter img{
-    width: 60%;
+    width: 40%;
 }
 .partfooter h4{
     color: white;
@@ -202,7 +210,7 @@ footer{
     background-color: #d03d3d;
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: 1px double #d03d3d;
 }
 .contact{
 margin: 10px;
@@ -228,14 +236,14 @@ color: white;
 }
 .partfooter > a:hover {
     background-color: #d03d3d;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .6s;
 }
 .social-media > a > i {
     color: white;
     display: inline-block;
     font-size: 25px;
     border: 2px solid #ffffff;
-    border-radius: 20%;
+    border-radius: 50%;
     width: 38px;
     height: 38px;
     line-height: 36px;
@@ -264,14 +272,15 @@ color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
-        clip-path: circle(0.0% at 0 1%)
+        clip-path: circle(0.0% at 0 0)
     }
-    .nav .enlaces-header{
+    .nav .enlaces-header a{
         color: #fff;
         background-color: aliceblue;
         text-transform: uppercase;
         font-weight: 800;
         margin-top: 20px;
+        width: 50%;
         text-align: center;
         
     }
@@ -280,7 +289,9 @@ color: white;
         background-color: #fff;
 
 }
-.nav .hamburgueropen
+.nav .hamburgueropen{
+    clip-path: circle(150.0% at 0 0);
+}
 }
     
     
